@@ -1,0 +1,1 @@
+My personal website that showcases my latest projects. Uses Bootstrap, some fun blue ferns made in Photoshop, and my current resume. Also provides links to GitHub (and here you are!), LinkedIn, and a gallery that has all my art done on Photoshop. Enjoy! 
