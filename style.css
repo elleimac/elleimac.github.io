@@ -1,0 +1,290 @@
+body,
+html {
+	background-color: black;
+	font-family: jubilat, serif;
+	font-weight: 100;
+	font-style: normal;
+}
+
+.hero {
+	background-image: url(hero.jpg);
+	background-repeat: no-repeat;
+	height: 800px;
+	background-image: contain;
+}
+
+.hero-end {
+	background-image: url(hero.jpg);
+	background-repeat: no-repeat;
+	background-image: contain;
+}
+
+.big {
+	font-family: fatfrank, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 6em;
+}
+
+.headings {
+	font-family: fatfrank, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 4em;
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.contact {
+	padding: 2em;
+}
+
+.about-me {
+	background-color: rgba(0, 0, 0, 0.6);
+	color: #fff9ee;
+	padding-right: 2em;
+	padding-left: 2em;
+	margin-right: 15em;
+	margin-left: 15em;
+	display: flex;
+	align-content: center;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	border: 2px solid black;
+	position: relative;
+	top: 6em;
+}
+
+.gradient {
+	background-color: #eb9d02;
+	background-position: 100% 0;
+	background-size: 200% 200%;
+	color: #2b16a2;
+	padding: 12px 24px;
+	font-size: 18px;
+	font-weight: 400;
+	text-decoration: none;
+	transition: all 0.5s ease;
+	margin-top: 2em;
+}
+
+.gradient:hover {
+	background-image: linear-gradient(
+		90deg,
+		#2b16a2 10%,
+		#130949 45%,
+		#067093 55%
+	);
+	background-position: 0 0;
+	color: #fff9ee;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.fixed {
+	position: fixed;
+	height: 100%;
+	width: 160px;
+	z-index: 1;
+	top: 0;
+	padding-right: 2em;
+}
+
+.sidebar-fixed {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	padding-top: 1em;
+}
+
+.links {
+	display: flex;
+
+	justify-content: center;
+}
+
+.my-link {
+	font-size: 3em;
+	color: #eb9d02;
+	flex-direction: row;
+}
+
+.my-link:hover {
+	color: #fff9ee;
+	cursor: pointer;
+}
+
+.icons .fab,
+.icons .fas {
+	margin: 0.4em;
+}
+
+#projects {
+	background-color: black;
+}
+
+.top,
+.upper {
+	display: flex;
+	justify-content: center;
+	color: #fff9ee;
+	font-family: fatfrank, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 3em;
+}
+
+.top {
+	padding: 1em;
+	color: #fff9ee;
+}
+
+.images {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.project-img {
+	color: #fff9ee;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left: 8em;
+	padding-right: 8em;
+}
+
+.add-hero {
+	background-image: url(hero.jpg);
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	padding: 50px;
+	flex-direction: column;
+	flex-wrap: wrap;
+	color: #fff9ee;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+	width: 90%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	display: flex;
+	width: 500px;
+}
+
+button {
+	color: #2b16a2;
+	cursor: pointer;
+	padding: 12px;
+}
+
+input[type="submit"] {
+	width: 30%;
+	color: #2b16a2;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.proj {
+	display: flex;
+	justify-content: center;
+	flex-wrap: nowrap;
+	padding: 5px;
+	font-size: 14px;
+}
+
+.space {
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+.submit-btn {
+	display: flex;
+	justify-content: center;
+	cursor: pointer;
+}
+
+.upper {
+	padding-top: 1em;
+}
+
+footer {
+	background-color: black;
+	color: #eb9d02;
+	padding: 1em;
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+}
+
+footer a {
+	color: #fff9ee;
+}
+
+footer a:hover {
+	color: #eb9d02;
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 890px) {
+	.about-me {
+		border: none;
+		margin: auto;
+	}
+
+	.my-link {
+		font-size: 1.5em;
+	}
+
+	.sidebar-fixed {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+		width: 20px;
+	}
+
+	footer {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.center {
+		display: flex;
+		justify-content: center;
+	}
+
+	input[type="text"],
+	input[type="email"],
+	textarea {
+		width: auto;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	.my-link {
+		font-size: 1.6em;
+	}
+}
