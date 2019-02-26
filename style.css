@@ -195,7 +195,9 @@ textarea {
 button {
 	color: #2b16a2;
 	cursor: pointer;
-	padding: 12px;
+	border: none;
+	width: 9em;
+	height: 3.2em;
 }
 
 input[type="submit"] {
