@@ -47,14 +47,15 @@ a:hover {
 .about-me {
 	background-color: rgba(0, 0, 0, 0.6);
 	color: #fff9ee;
-	padding-right: 2em;
-	padding-left: 2em;
+	padding-right: 4em;
+	padding-left: 4em;
+	padding-top: 2em;
+	padding-bottom: 2em;
 	margin-right: 15em;
 	margin-left: 15em;
 	display: flex;
 	align-content: center;
-	padding-top: 2em;
-	padding-bottom: 2em;
+
 	border: 2px solid black;
 	position: relative;
 	top: 6em;
@@ -161,8 +162,8 @@ ul {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding-left: 8em;
-	padding-right: 8em;
+	padding-left: 12em;
+	padding-right: 12em;
 }
 
 .add-hero {
@@ -282,6 +283,25 @@ footer a:hover {
 	input[type="email"],
 	textarea {
 		width: auto;
+	}
+
+	.project-img {
+		padding-left: 7em;
+		padding-right: 7em;
+	}
+
+	.proj {
+		padding-left: 6em;
+		padding-right: 6em;
+	}
+
+	button {
+		width: 8em;
+		height: 4em;
+	}
+
+	.gradient {
+		font-size: 16px;
 	}
 }
 
