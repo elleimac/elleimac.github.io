@@ -4,7 +4,7 @@ html {
 }
 
 footer {
-	background-color: black;
+	background-color: #232426;
 	color: #eb9d02;
 	padding: 1em;
 	display: flex;
@@ -45,7 +45,7 @@ ul {
 
 .my-link {
 	font-size: 3em;
-	color: black;
+	color: #232426;
 }
 
 .my-link:hover {
